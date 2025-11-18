@@ -44,7 +44,17 @@ pip install Pillow
 
 ## Uso
 
-Execute o programa:
+### Opção 1: Script de execução (recomendado)
+
+Na pasta do projeto, execute:
+
+```bash
+./run.sh
+```
+
+### Opção 2: Executar diretamente com Python
+
+Na pasta do projeto, execute:
 
 ```bash
 python3 main.py
@@ -56,10 +66,20 @@ Ou:
 python main.py
 ```
 
+### Opção 3: Executar de qualquer lugar
+
+Se você estiver em outra pasta, use o caminho completo:
+
+```bash
+cd /mnt/8EB22BD6B22BC217/Projetos/VizualizadorXD
+python3 main.py
+```
+
 ## Funcionalidades
 
-- Abrir arquivos .xd do Adobe XD
-- Zoom in/out com scroll do mouse (sem perder qualidade)
-- Arrastar imagem clicando e movendo o mouse
-- Visualização de recursos visuais extraídos do arquivo .xd
+- **Abrir arquivos .xd**: Menu "Arquivo > Abrir arquivo .xd" ou arraste e solte o arquivo na janela
+- **Drag-and-drop**: Arraste arquivos .xd diretamente para a janela de visualização
+- **Zoom in/out**: Use a roda do mouse para fazer zoom (sem perder qualidade)
+- **Arrastar imagem**: Clique e arraste a imagem com o mouse
+- **Visualização de recursos**: Extrai e exibe recursos visuais do arquivo .xd
 
